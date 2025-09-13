@@ -16,5 +16,3 @@ Learnings from challenges:
 Monthly highlights:
 - Consolidated all tasks into one repository accessible on GitHub.
 - Gained confidence in sharing code publicly and documenting progress.
-
-GitHub repository link:https://github.com/Jackson-Tech1/alx_be_python.git
