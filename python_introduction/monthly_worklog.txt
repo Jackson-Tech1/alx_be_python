@@ -1,0 +1,20 @@
+Monthly Work-Log – Jackson L
+
+Summary of what I worked on:
+- Completed Python exercises covering basic arithmetic, user input, and algorithmic calculations.
+- Practiced Git version control by pushing all scripts to GitHub.
+
+Achievements:
+- Completed 6 Python scripts: Basic Arithmetic, Simple Interest, Rectangle Area, Hours to Seconds, Future Age Calculator, and Work-log Documentation.
+- Maintained a clean GitHub repository structure and workflow.
+
+Learnings from challenges:
+- Learned to run Python code in the correct environment.
+- Practiced converting user input to integers.
+- Improved understanding of Git commands and troubleshooting push errors.
+
+Monthly highlights:
+- Consolidated all tasks into one repository accessible on GitHub.
+- Gained confidence in sharing code publicly and documenting progress.
+
+GitHub repository link:https://github.com/Jackson-Tech1/alx_be_python.git
