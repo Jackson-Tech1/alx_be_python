@@ -1,10 +1,14 @@
-weather = input("What's the weather like today? (sunny/rainy/cold): ").lower()
+test_conditions = ["sunny", "rainy", "cold", "windy"]
+def give_recommendation(weather):
+weather = weather.lower()
 if weather == "sunny":
-    print("Wear a t-shirt and sunglasses.")
+return "Wear a t-shirt and sunglasses."
 elif weather == "rainy":
-    print("Don't forget your umbrella and a raincoat.")
+return "Don't forget your umbrella and a raincoat."
 elif weather == "cold":
-    print("Make sure to wear a warm coat and a scarf.")
+return "Make sure to wear a warm coat and a scarf."
 else:
-    print("Sorry, I don't have recommendations for this weather.")
-
+return "Sorry, I don't have recommendations for this weather."
+for condition in test_conditions:
+print(f"Input: {condition}")
+print(f"Output: {give_recommendation(condition)}\n")
