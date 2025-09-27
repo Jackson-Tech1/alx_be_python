@@ -5,13 +5,20 @@ def display_menu():
     print("2. Remove Item")
     print("3. View List")
     print("4. Exit")
-
 def main():
+<<<<<<< HEAD
 while True:
 display_menu()
 try:
 choice = int(input("Enter your choice (1-4): "))
 except ValueError:
+=======
+    shopping_list = []
+    while True:
+        display_menu()
+        try:
+            choice = int(input("Enter your choice (1-4): "))
+        except ValueError:
             print("Invalid input. Please enter a number between 1 and 4.")
             continue
 
@@ -47,6 +54,5 @@ except ValueError:
 
         else:
             print("Invalid choice. Please enter a number between 1 and 4.")
-
 if __name__ == "__main__":
     main()
