@@ -1,4 +1,3 @@
-
 def display_menu():
     """Displays the menu for the shopping list manager."""
     print("\nShopping List Manager")
@@ -6,10 +5,8 @@ def display_menu():
     print("2. Remove Item")
     print("3. View List")
     print("4. Exit")
-
 def main():
     shopping_list = []
-
     while True:
         display_menu()
         try:
@@ -44,6 +41,5 @@ def main():
             break
         else:
             print("Invalid choice. Please enter a number between 1 and 4.")
-
 if __name__ == "__main__":
     main()
