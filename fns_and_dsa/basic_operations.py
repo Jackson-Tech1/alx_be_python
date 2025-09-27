@@ -10,6 +10,8 @@ def perform_operation(num1: float, num2: float, operation: str):
     Returns:
     float or str: Result of operation or an error message if invalid
     """
+    operation = operation.strip().lower()  # Normalize input
+
     if operation == "add":
         return num1 + num2
     elif operation == "subtract":
